@@ -1,4 +1,65 @@
+/* fonts */
+
+
 @font-face {
     font-family: "sahel-b";
     src: url("../font/Sahel-b.ttf");
+}
+
+@font-face {
+    font-family: "sahel-r";
+    src: url(../font/Sahel-r.ttf);
+}
+
+@font-face {
+    font-family: "shabnam-r";
+    src: url(../font/shabnam-r.ttf);
+}
+
+@font-face {
+    font-family: "shabnam-b";
+    src: url(../font/shabnam-b.ttf);
+}
+
+
+
+/* styles */
+
+
+#title-center{
+    text-align: center;
+    font-family: "sahel-b";
+    font-size: 100px;
+}
+
+#subtitle-center-big{
+    text-align: center;
+    font-family: "shabnam-r";
+    font-size: 27px;
+}
+
+#subtitle-center-small{
+    text-align: center;
+    font-family: "shabnam-r";
+    font-size: 17px;
+}
+
+#center{
+    text-align: center;
+}
+
+.center{
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    color: orange;
+}
+
+a:hover{
+    color: rgb(224, 124, 2);
 }
