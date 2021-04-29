@@ -1,4 +1,6 @@
-/* fonts */
+
+
+/* FONTS */
 
 
 @font-face {
@@ -23,25 +25,42 @@
 
 
 
-/* styles */
+/* STYLES */
 
 
 #title-center{
     text-align: center;
     font-family: "sahel-b";
     font-size: 100px;
+    color: white;
 }
 
 #subtitle-center-big{
     text-align: center;
     font-family: "shabnam-r";
     font-size: 27px;
+    color: white;
+}
+
+#subtitle-center-big-b{
+    text-align: center;
+    font-family: "shabnam-b";
+    font-size: 27px;
+    color: white;
 }
 
 #subtitle-center-small{
     text-align: center;
     font-family: "shabnam-r";
     font-size: 17px;
+    color: white;
+}
+
+#subtitle-center-small-b{
+    text-align: center;
+    font-family: "shabnam-b";
+    font-size: 17px;
+    color: white;
 }
 
 #center{
@@ -56,10 +75,19 @@
     transform: translate(-50%, -50%);
 }
 
+
+/* TAG STYLES */
+
+
+body{
+    background-color: rgb(107, 157, 209);
+}
+
 a{
-    color: orange;
+    color: rgb(191, 234, 178);
+    text-decoration: none;
 }
 
 a:hover{
-    color: rgb(224, 124, 2);
+    color: rgb(129, 236, 96);
 }
