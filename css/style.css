@@ -89,5 +89,10 @@ a{
 }
 
 a:hover{
+    cursor: pointer;
     color: rgb(129, 236, 96);
+}
+
+div{
+    cursor: default;
 }
